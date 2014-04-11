@@ -24,7 +24,6 @@ public class GUIOverlayRIG extends Gui {
 
 	private Minecraft mc = Minecraft.getMinecraft();
 	private static final ResourceLocation texturepath = new ResourceLocation(DeadSpaceCore.ID.toLowerCase(), "textures/gui/newb.png");
-	private ScaledResolution scaledresolution = new ScaledResolution(this.mc.gameSettings, this.mc.displayWidth, this.mc.displayHeight);
 
 	int xPos = 2;
 	int yPos = 6;
@@ -51,7 +50,8 @@ public class GUIOverlayRIG extends Gui {
 		GL11.glDisable(GL11.GL_LIGHTING);
 
 		this.mc.getTextureManager().bindTexture(texturepath);
-
+		
+		//appears only on survival mode.
 		if (!player.capabilities.isCreativeMode) {
 
 			this.drawTexturedModalRect(xPos, yPos, 0, 0, 182, 5);
