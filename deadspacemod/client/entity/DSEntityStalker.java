@@ -104,5 +104,6 @@ public class DSEntityStalker extends EntityMob
 	{
 		this.worldObj.playSoundAtEntity(this, null, 0.15F, 1.0F);
 	}
+         // Stalker has no sounds :(
 
 }
