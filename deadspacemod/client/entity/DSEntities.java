@@ -65,6 +65,7 @@ public class DSEntities
 		LanguageRegistry.instance().addStringLocalization("entity.NicoleAlive.name", "Nicole Brennan (Alive)");
 		LanguageRegistry.instance().addStringLocalization("entity.NicoleHalluccination.name", "Nicole Brennan (Halluccination)");
 		LanguageRegistry.instance().addStringLocalization("entity.Exploder.name", "Exploder");
+                LanguageRegistry.instance().addStringLocalization("entity.Stalker.name",  "Stalker");
 	}
 
 	//Entity Parse

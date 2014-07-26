@@ -44,6 +44,7 @@ import deadspacemod.client.entity.DSRenderNicoleHalluccination;
 import deadspacemod.client.entity.DSRenderSCAFlightWaster;
 import deadspacemod.client.entity.DSRenderSlasher;
 import deadspacemod.client.entity.DSRenderSwarmer;
+import deadspacemod.client.entity.DSEntityStalker;
 import deadspacemod.client.itemrenders.DSRenderDevilHorns;
 import deadspacemod.client.itemrenders.DSRenderLineGun;
 import deadspacemod.client.itemrenders.DSRenderPlasmaCutter;
@@ -61,6 +62,7 @@ import deadspacemod.client.projectiles.DSRenderPulseRifleProjectile;
 import deadspacemod.client.projectiles.DSRenderSeekerRifleProjectile;
 import deadspacemod.common.DSCommonProxy;
 import deadspacemod.common.items.DSCoreItems;
+import deadspacemod.client.entity.DSEntityStalker;
 
 public class DSClientProxy extends DSCommonProxy 
 {
@@ -96,5 +98,6 @@ public class DSClientProxy extends DSCommonProxy
 		RenderingRegistry.registerEntityRenderingHandler(DSEntityNicoleAlive.class, new DSRenderNicoleAlive(new DSModelNicoleAlive(), 0.6F));
 		RenderingRegistry.registerEntityRenderingHandler(DSEntityNicoleHalluccination.class, new DSRenderNicoleHalluccination(new DSModelNicoleHalluccination(), 0.6F));
 		RenderingRegistry.registerEntityRenderingHandler(DSEntityExploder.class, new DSRenderExploder(new DSModelExploder(), 0.6F));
+                RenderingRegistry.registerEntityRenderingHandler(DSEntityStalker.class, new DSRenderStalker(new DSModelStalker(), 0.6F));
 	}
 }
