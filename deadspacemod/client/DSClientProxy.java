@@ -44,6 +44,7 @@ import deadspacemod.client.entity.DSRenderNicoleHalluccination;
 import deadspacemod.client.entity.DSRenderSCAFlightWaster;
 import deadspacemod.client.entity.DSRenderSlasher;
 import deadspacemod.client.entity.DSRenderSwarmer;
+import deadspacemod.client.entity.DSEntityStalker;
 import deadspacemod.client.itemrenders.DSRenderDevilHorns;
 import deadspacemod.client.itemrenders.DSRenderLineGun;
 import deadspacemod.client.itemrenders.DSRenderPlasmaCutter;
