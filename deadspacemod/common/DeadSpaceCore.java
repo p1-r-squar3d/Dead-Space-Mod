@@ -95,6 +95,7 @@ public class DeadSpaceCore
 		EntityRegistry.registerGlobalEntityID(DSEntityNicoleAlive.class, "NicoleAlive", 12);
 		EntityRegistry.registerGlobalEntityID(DSEntityNicoleHalluccination.class, "NicoleHalluccination", 13);
 		EntityRegistry.registerGlobalEntityID(DSEntityExploder.class, "Exploder", 14);
+                EntityRegistry.registerGobalEntityID(DSEntityStalker.class "Stalker",10);
 		
 		EntityRegistry.registerModEntity(DSEntityPlasmaCutterProjectile.class, "PlasmsaCutterProjectile", 50, this, 150, 1, true);
 		EntityRegistry.registerModEntity(DSEntitySeekerRifleProjectile.class, "SeekerRifleProjectile", 51, this, 150, 1, true);
