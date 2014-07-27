@@ -12,7 +12,7 @@ import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.network.NetworkMod;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.EntityRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -60,7 +60,7 @@ public class DeadSpaceCore
 	public static CreativeTabs tabDeadSpace;
 
 	@EventHandler
-	public void preLoad(FMLPreInitializationEvent e) {
+	public void preInit(FMLPreInitializationEvent event) {
 		Configuration c = new Configuration(e.getSuggestedConfigurationFile());		
 		if(FMLCommonHandler.instance().getSide().isClient())DSKeybinds.init(c);
 	}
@@ -114,5 +114,9 @@ public class DeadSpaceCore
 		GameRegistry.addRecipe(new ItemStack(DSCoreItems.largeMedPack, 1),  new Object[]{
 			"SSS", "MIM", 'S', DSCoreItems.smallMedPack, 'M', DSCoreItems.scrapMetal, 'I', Item.ingotIron
 		});
-	}
-}
+                 @EventHandler
+                 public void postInit(FMLPostInitializationEvent event) {
+         
+                 }
+              }
+            }
