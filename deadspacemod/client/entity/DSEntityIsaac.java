@@ -87,7 +87,7 @@ public class DSEntityIsaac extends EntityMob
 			this.targetTasks.addTask(16, new EntityAINearestAttackableTarget(this, DSEntityInfector.class, 0, true));
 			this.targetTasks.addTask(17, new EntityAINearestAttackableTarget(this, DSEntityEnhancedInfector.class, 0, false));
 			this.targetTasks.addTask(18, new EntityAINearestAttackableTarget(this, EntityMagmaCube.class, 0, false));
-		        this.targetTask.addTask(18, new EntityAINearestAttackableTargrt(this,EntityStalker, 0 false));
+		        this.targetTask.addTask(18, new EntityAINearestAttackableTarget(this,EntityStalker, 0 true));
                 }
 	}
 	
