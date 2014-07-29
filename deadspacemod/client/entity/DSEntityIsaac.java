@@ -40,6 +40,7 @@ public class DSEntityIsaac extends EntityMob
 		{
 			//Tasks
 			this.getNavigator().setBreakDoors(true);
+                        this.getNavigator().setBreakGlass(true);
 			this.tasks.addTask(0, new EntityAISwimming(this));
 			this.tasks.addTask(1, new EntityAIAttackOnCollide(this, EntityPlayer.class, 1.0D, false));
 			this.tasks.addTask(2, new EntityAIAttackOnCollide(this, EntitySkeleton.class, 1.0D, true));
@@ -81,12 +82,13 @@ public class DSEntityIsaac extends EntityMob
 			this.targetTasks.addTask(11, new EntityAINearestAttackableTarget(this, EntityGhast.class, 0, false));
 			this.targetTasks.addTask(12, new EntityAINearestAttackableTarget(this, DSEntityEnhancedSlasher.class, 0, false));
 			this.targetTasks.addTask(13, new EntityAINearestAttackableTarget(this, DSEntityEnhancedLeaper.class, 0, false));
-			this.targetTasks.addTask(14, new EntityAINearestAttackableTarget(this, DSEntityLeaper.class, 0, false));
-			this.targetTasks.addTask(15, new EntityAINearestAttackableTarget(this, DSEntitySwarmer.class, 0, false));
-			this.targetTasks.addTask(16, new EntityAINearestAttackableTarget(this, DSEntityInfector.class, 0, false));
+			this.targetTasks.addTask(14, new EntityAINearestAttackableTarget(this, DSEntityLeaper.class, 0, true));
+			this.targetTasks.addTask(15, new EntityAINearestAttackableTarget(this, DSEntitySwarmer.class, 0, true));
+			this.targetTasks.addTask(16, new EntityAINearestAttackableTarget(this, DSEntityInfector.class, 0, true));
 			this.targetTasks.addTask(17, new EntityAINearestAttackableTarget(this, DSEntityEnhancedInfector.class, 0, false));
 			this.targetTasks.addTask(18, new EntityAINearestAttackableTarget(this, EntityMagmaCube.class, 0, false));
-		}
+		        this.targetTask.addTask(18, new EntityAINearestAttackableTargrt(this,EntityStalker, 0 false));
+                }
 	}
 	
 	//AI Enabler	
