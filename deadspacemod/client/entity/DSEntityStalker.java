@@ -51,8 +51,8 @@ public class DSEntityStalker extends EntityMob
 			//Target Tasks
 			this.targetTasks.addTask(1, new EntityAIHurtByTarget(this, true));
 			this.targetTasks.addTask(2, new EntityAINearestAttackableTarget(this, EntityPlayer.class, 0, true));
-			this.targetTasks.addTask(3, new EntityAINearestAttackableTarget(this, EntityVillager.class, 0, false));
-			this.targetTasks.addTask(3, new EntityAINearestAttackableTarget(this, DSEntityIsaac.class, 0, false));
+			this.targetTasks.addTask(3, new EntityAINearestAttackableTarget(this, EntityVillager.class, 0, true));
+			this.targetTasks.addTask(3, new EntityAINearestAttackableTarget(this, DSEntityIsaac.class, 0, true));
 		}
 	}
 	
