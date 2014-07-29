@@ -44,8 +44,7 @@ import deadspacemod.common.blocks.DSCoreBlocks;
 import deadspacemod.common.items.DSCoreItems;
 import deadspacemod.common.packet.DSPacketHandler;
 
-@Mod(modid=DeadSpaceCore.ID, name=DeadSpaceCore.NAME, version=DeadSpaceCore.VERSION)
-@NetworkMod(clientSideRequired=true, serverSideRequired=false, packetHandler = DSPacketHandler.class, channels = { DeadSpaceCore.CHANNEL })
+@Mod(modid=DeadSpaceCore.ID, name=DeadSpaceCore.NAME, version=NAME)
 
 public class DeadSpaceCore
 {
