@@ -1,6 +1,6 @@
 Dead Space Mod
 ==
-For Minecraft 1.6.4
+Coded on Minecraft 1.6.4 - FML Build 1.6.4-9.11.1.947
 -
 Purpose
 -
