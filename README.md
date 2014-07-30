@@ -8,6 +8,7 @@ Coded on Minecraft 1.6.4 || FML Build 1.6.4-9.11.1.947
 
 Hippomaster's Animation API
 ##The Circle:
+###Inspirational Video
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=mGbPlTnipCg
 " target="_blank"><img src="http://img.youtube.com/vi/mGbPlTnipCg/0.jpg" 
  width="583" height="337" border="10" /></a>
