@@ -9,7 +9,7 @@ Dependencies:
 Hippomaster's Animation API
 Disclaimer:
 -
-This repository is for educational purposes only. You may use our code for your own but not make another Minecraft mod out of the entire source as we will not tolerate that.
+This repository is for educational purposes only. You may use our code for your own but not make another Minecraft mod out of the entire source as we will not tolerate that flaw.
 Purpose:
 -
 This repository is for more efficient code distribution between members of the team.
