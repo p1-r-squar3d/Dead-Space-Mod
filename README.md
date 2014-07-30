@@ -2,7 +2,7 @@
 
 ##Current Version: [ Alpha 0.1.0 ]
 
-Coded on Minecraft 1.6.4 || FML Build 1.6.4-9.11.1.947
+###Coded on Minecraft 1.6.4 || FML Build 1.6.4-9.11.1.947
 
 ##Dependencies:
 
