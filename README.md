@@ -1,4 +1,4 @@
-#Dead Space Mod
+# [ deadspacemod ]
 
 ##Current Version: [ Alpha 0.1.0 ]
 
