@@ -1,7 +1,7 @@
 #[ deadspacemod / downloads ]
 
-| Latest Builds      |Download  |
-| ------------- |: ------|
+| Latest Builds |Download  |
+| ------------- |------|
 | Recommended: 0.1.0 for Minecraft 1.6.4     |  [Adf.ly](https://www.google.com) or [Direct](https://www.google.com)|
 | Latest 0.1.2 for Minecraft 1.7.2      |[Adf.ly](https://www.google.com) or [Direct](https://www.google.com)|
 ##Build Glossary (Visuals for the moment.)
